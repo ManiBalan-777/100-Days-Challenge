@@ -5,7 +5,7 @@
 int keyword(char *arr) 
 {
 	int i=0;
-    char keywords[][10] = 
+char keywords[][10] = 
 	{
         "auto", "break", "case", "char", "const", "continue", "default",
         "do", "double", "else", "enum", "extern", "float", "for", "goto",
