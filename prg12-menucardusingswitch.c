@@ -16,7 +16,7 @@ int main()
 			printf("\n So,the total amount is %d",total);
 			
 			break;
-		case 2:
+		case 2 :
 			printf("\nyou choose tea");
 			printf("\n enter how many of you buy:");
 			scanf("%d",&qnty);

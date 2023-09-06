@@ -2,7 +2,7 @@
 int  main()
 {
 	int i,a;
-	char c;
+
 	printf("enter which ascii value you want?");
 	scanf("%d",&a);
 	for(i=0;i<=255;i++)
@@ -14,7 +14,8 @@ int  main()
 		}
 		
 	}
-		printf("\nasciee value for %d  is %c",a,a);
+	printf("\nasciee value for %d  is %c",a,a);
+
 		
 	
 	
