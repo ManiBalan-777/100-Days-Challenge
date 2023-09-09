@@ -6,6 +6,8 @@ int main()
 	printf("\n Enter the limit:");
 	scanf("%d",&n);
 	int *p=(int *)malloc(sizeof(int)*n);
+	//p=(int *)realloc(p,sizeof(int)*2);
+	
 	if(p==NULL)
 	{
 		printf("\n Memory not allocated");
@@ -13,7 +15,7 @@ int main()
 	}
 	for(i=0;i<n;i++)
 	{
-		printf("\nRandom value=%d	",*(p+i));
+		printf("\nRandom value=%d	",(p+i));
 		printf("\n Enter the number that is New value assigned to Random value=:");
 		scanf("%d",(p+i));
 		printf("Print the real value=%d	",*(p+i));
